@@ -1,23 +1,38 @@
 @import url(assets/css/normilaze.css);
+
 @font-face {
-    font-family: 'Futura PT';
-    src: url('assets/fonts/FuturaPT-Bold.eot');
-    src: url('assets/fonts/FuturaPT-Bold.eot?#iefix') format('embedded-opentype'),
-        url('assets/fonts/FuturaPT-Bold.woff') format('woff'),
+    font-family: 'FuturaPT-Medium';
+    src:
+        url('assets/fonts/FuturaPT-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FuturaPT-Bold';
+    src:
         url('assets/fonts/FuturaPT-Bold.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
-
-.background-auhtorization img{
-    width: 100%;
-    height: 100%;
+@font-face {
+    font-family: 'FuturaPT-Book';
+    src:
+        url('assets/fonts/FuturaPT-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
-h1{
-    font-family: 'Futura PT',
-    sans-serif;
+.background-auhtorization img {
+    width: 50vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+h1 {
+    font-family: 'FuturaPT-Bold',
+        sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 48px;
@@ -29,15 +44,16 @@ h1{
     margin: 0 auto;
 }
 
-.form-auhtorization{
+.form-auhtorization {
     max-width: 260px;
     width: 100%;
-    margin:0 auto;
+    margin: 0 auto;
     padding: 0;
 }
 
-.form-auhtorization label{
-    font-family: 'Futura PT',sans-serif;
+.form-auhtorization label {
+    font-family: 'FuturaPT-Book',
+        sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -46,7 +62,7 @@ h1{
     padding-left: 10px;
 }
 
-.form-auhtorization input{
+.form-auhtorization input {
     border: 1px solid #E9E8E9;
     box-sizing: border-box;
     border-radius: 8px;
@@ -55,12 +71,13 @@ h1{
     width: 100%;
 }
 
-.form-auhtorization button{
+.form-auhtorization button {
     background: #01466F;
     border-radius: 8px;
-    border:none;
+    border: none;
     padding: 13px;
-    font-family: 'Futura PT',sans-serif;
+    font-family: 'FuturaPT-Medium',
+        sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -68,11 +85,12 @@ h1{
     color: #FFFFFF;
 }
 
-@media (max-width:450px){
-    h1{
+@media (max-width:450px) {
+    h1 {
         font-size: 38px;
     }
-    b{
+
+    b {
         font-size: 14px;
     }
 }
