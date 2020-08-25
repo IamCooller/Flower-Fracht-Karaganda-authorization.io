@@ -55,7 +55,7 @@ h1 {
     font-family: 'FuturaPT-Book',
         sans-serif;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 200;
     font-size: 16px;
     line-height: 21px;
     color: #292929;
@@ -69,7 +69,11 @@ h1 {
     height: 48px;
     padding-left: 15px;
     width: 100%;
-     outline:none;
+    outline: none;
+}
+
+.form-auhtorization input[type=password] {
+    letter-spacing: 5px;
 }
 
 .form-auhtorization input:active,
@@ -84,10 +88,10 @@ h1 {
     opacity: 1;
 }
 
-.requirements{
+.requirements {
     opacity: 0;
     font-family: 'FuturaPT-Medium',
-    sans-serif;
+        sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -96,6 +100,7 @@ h1 {
     padding-top: 10px;
     text-align: center;
 }
+
 .form-auhtorization button {
     background: #01466F;
     border-radius: 8px;
@@ -108,12 +113,12 @@ h1 {
     font-size: 16px;
     line-height: 21px;
     color: #FFFFFF;
-    outline:none;
+    outline: none;
 }
 
-.form-auhtorization button:hover{
+.form-auhtorization button:hover {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    #01466F;
+        #01466F;
 }
 
 @media (max-width:450px) {
