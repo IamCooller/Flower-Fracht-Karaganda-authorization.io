@@ -69,8 +69,33 @@ h1 {
     height: 48px;
     padding-left: 15px;
     width: 100%;
+     outline:none;
 }
 
+.form-auhtorization input:active,
+.form-auhtorization input:focus {
+    border: 1px solid #01466F;
+}
+
+.form-auhtorization input:invalid:not(:focus):not(:placeholder-shown),
+.form-auhtorization input:invalid:not(:focus):not(:placeholder-shown)~.requirements {
+    color: #E77162;
+    border: 1px solid #E77162;
+    opacity: 1;
+}
+
+.requirements{
+    opacity: 0;
+    font-family: 'FuturaPT-Medium',
+    sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    border: none !important;
+    padding-top: 10px;
+    text-align: center;
+}
 .form-auhtorization button {
     background: #01466F;
     border-radius: 8px;
@@ -83,6 +108,12 @@ h1 {
     font-size: 16px;
     line-height: 21px;
     color: #FFFFFF;
+    outline:none;
+}
+
+.form-auhtorization button:hover{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    #01466F;
 }
 
 @media (max-width:450px) {
